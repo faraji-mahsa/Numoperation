@@ -31,6 +31,14 @@ public class NumOps {
         nop.getOp(i).getDesc() + 
         " 1 is " + 
         nop.getOp(i).op(3,1) ); 
+      System.out.println( "4" + 
+        nop.getOp(i).getDesc() + 
+        " 2 is " + 
+        nop.getOp(i).op(4,2) ); 
+      System.out.println( "6" + 
+        nop.getOp(i).getDesc() + 
+        " 1 is " + 
+        nop.getOp(i).op(6,1) ); 
     }
   }
 }
