@@ -26,6 +26,6 @@ public class NumOpsTest extends TestCase
         assertTrue(nops.getOp(0).op(2,1) == 3);
                    assertTrue(nops.size() == 1);
          assertTrue(nops.getOp(0).getDesc().equals("plus"));
-        assertTrue(nops.getOp(0).op(2,1) == 3); 
+        assertTrue(nops.getOp(0).op(3,2) == 5); 
     }
 }
